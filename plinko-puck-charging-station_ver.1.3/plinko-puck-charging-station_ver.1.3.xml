@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\KiCad\projects\Plinko_charging_station\plinko-puck-charging-station_ver.1.3\plinko-puck-charging-station_ver.1.3\plinko-puck-charging-station_ver.1.3.kicad_sch</source>
+    <date>10/25/2023 12:23:28 PM</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>plinko-puck-charging-station_ver.1.3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="CP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f9ba868-781d-4ec6-b418-4727c7f00255</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="CP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98b383ad-c6be-4d55-a803-cafaa3c78bc1</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7290aba7-9701-4a7f-9efd-a4c38f1a6ef8</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74e6b1c0-727d-4c48-b3a1-c27a2d2aafa4</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69efda34-8029-49a7-a848-e44674d6a195</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54d84d2e-ead9-421b-9212-81b5b32f92fb</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>688ee31d-b591-4b5d-8e33-4025d39d37d8</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Power_supply</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e983cd3-7cc1-43f0-afc9-4c50a63fb125</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>NC_push_button</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8566a99d-19a7-45d1-9b0c-561f0d7e237d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>puck_contacts</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ba1a950-e76d-4dbd-a92b-4e34a58f4261</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3227f9bf-91f2-46d4-88cc-3e4e2c06d58e</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>LED</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fe5183a-8619-4deb-ad41-984abb4147d7</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS214NWH6327XTSA1</value>
+      <footprint>digikey-footprints:SOT-323</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664</field>
+        <field name="Description">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="Digi-Key_PN">2N7002NCT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">2N7002</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="2N7002" description="MOSFET N-CH 60V 115MA SOT-23"/>
+      <property name="Digi-Key_PN" value="2N7002NCT-ND"/>
+      <property name="MPN" value="2N7002"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Transistors - FETs, MOSFETs - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664"/>
+      <property name="Description" value="MOSFET N-CH 60V 115MA SOT-23"/>
+      <property name="Manufacturer" value="ON Semiconductor"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef209e0f-caf0-4075-b8ae-6f06d0ecf05c</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>CDCLD400 TR13</value>
+      <footprint>digikey-footprints:TO-252-3</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NCV8402-D.PDF</datasheet>
+      <libsource lib="Driver_FET" part="NCV8402xST" description="Self-Protected Low Side Driver with Temperature and Current Limit, SOT−223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1949d50a-e3e2-414e-b45e-5c992403842f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0.06Ohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1305adf5-226f-414f-893d-f313f07e7b23</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9db5ce2a-a09e-427a-a58d-a6e404641374</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f8d22df-0e09-4040-bd75-e520dbc91dc7</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54fb0ed6-5ac9-4d86-8bf7-040c68eba349</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>240</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be34c3e3-5809-4ec5-9714-b4f3d9953c4f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6be7307a-af3f-485f-b289-a0ecdf2c76c3</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>340a1653-d3fe-441a-a00c-6fadb8816e05</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SR05S7V2</value>
+      <footprint>Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT</footprint>
+      <datasheet>https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="R-78E5.0-1.0" description="1A Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6498d931-d88e-46c8-8d24-b46d1df03b7b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP1801T-3302I/OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2733.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2733YMF" description="LM27313, 1A, 40Vout Boost Voltage Regulator, 600KHz Frequency,"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ff41c9f-5143-450d-b860-06ce72237cff</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>STM32G031Jx</value>
+      <footprint>digikey-footprints:SOIC-8_W3.9mm</footprint>
+      <libsource lib="STM32G031Jx_SO8N_pinout" part="STM32G031Jx" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>195026df-17fa-4d80-adf2-d222fb327fed</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>INA185A4IDRLR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-563</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina181.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="INA181" description="Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4f94ba9-7f61-4f94-8055-6857df0c478d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>SN74LVC1G14DBV</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf</datasheet>
+      <libsource lib="74xGxx" part="SN74LVC1G14DBV" description="Single Schmitt-Trigger Inverter, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="plinko-puck-charging-station_ver.1.3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b6ae53a-40ec-4d3b-b202-2a1eb3cc6157</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="SN74LVC1G14DBV">
+      <description>Single Schmitt-Trigger Inverter, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G14DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Current" part="INA181">
+      <description>Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina181.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA181</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina181.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="REF" type="input"/>
+        <pin num="6" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Device_CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_FET" part="NCV8402xST">
+      <description>Self-Protected Low Side Driver with Temperature and Current Limit, SOT−223</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NCV8402-D.PDF</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NCV8402xST</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NCV8402-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LM2733YMF">
+      <description>LM27313, 1A, 40Vout Boost Voltage Regulator, 600KHz Frequency,</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2733.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">LM2733YMF</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2733.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="SHDN" type="input"/>
+        <pin num="4" name="NC" type="input"/>
+        <pin num="5" name="Vout" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="R-78E5.0-1.0">
+      <description>1A Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3</description>
+      <docs>https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*RECOM*R*78E*0.5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R-78E5.0-1.0</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT</field>
+        <field name="Datasheet">https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="STM32G031Jx_SO8N_pinout" part="STM32G031Jx">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">STM32G031Jx</field>
+        <field name="Footprint">digikey-footprints:SOIC-8_W3.9mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OSC32_IN" type="input"/>
+        <pin num="2" name="VDD/VDDA" type="input"/>
+        <pin num="3" name="VSS/VSSA" type="input"/>
+        <pin num="4" name="PA0/NRST" type="input"/>
+        <pin num="5" name="PA8" type="input"/>
+        <pin num="6" name="PA12" type="input"/>
+        <pin num="7" name="PA13" type="input"/>
+        <pin num="8" name="BOOT0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Transistors-FETs-MOSFETs-Single" part="2N7002">
+      <description>MOSFET N-CH 60V 115MA SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">digikey-footprints:SOT-23-3</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Digi-Key_PN">2N7002NCT-ND</field>
+        <field name="MPN">2N7002</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664</field>
+        <field name="Description">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="bidirectional"/>
+        <pin num="2" name="S" type="bidirectional"/>
+        <pin num="3" name="D" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>C:\KiCad\6.0\share\kicad\symbols\/74xGxx.kicad_sym</uri>
+    </library>
+    <library logical="Amplifier_Current">
+      <uri>C:\KiCad\6.0\share\kicad\symbols\/Amplifier_Current.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Driver_FET">
+      <uri>C:\KiCad\6.0\share\kicad\symbols\/Driver_FET.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="dk_Transistors-FETs-MOSFETs-Single">
+      <uri>D:/KiCad/library/digikey-kicad-library-master/digikey-symbols/dk_Transistors-FETs-MOSFETs-Single.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+7V2">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="2" name="3V3">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="Vout" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="VDD/VDDA" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="V+" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VSS/VSSA" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="REF" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="LED">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="OSC32_IN" pintype="input"/>
+      <node ref="U5" pin="2" pintype="input"/>
+    </net>
+    <net code="5" name="NRST">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="PA0/NRST" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="7" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pintype="output"/>
+    </net>
+    <net code="11" name="PA8">
+      <node ref="U3" pin="5" pinfunction="PA8" pintype="input"/>
+      <node ref="U4" pin="1" pintype="output"/>
+    </net>
+    <net code="12" name="PA12">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="PA12" pintype="input"/>
+    </net>
+    <net code="13" name="SHDN">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="SHDN" pintype="input"/>
+    </net>
+    <net code="14" name="SWCLK">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="BOOT0" pintype="input"/>
+    </net>
+    <net code="15" name="SWDIO">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="PA13" pintype="input"/>
+    </net>
+    <net code="16" name="collector">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="17" name="puck_GND_pogo_pin">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="4" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U5-Pad1)">
+      <node ref="U5" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
